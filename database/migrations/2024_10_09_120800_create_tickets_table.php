@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->string('theme');
             $table->string('email');
-            $table->date('date');
             $table->timestamps();
         });
     }

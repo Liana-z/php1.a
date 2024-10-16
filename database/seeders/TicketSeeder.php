@@ -16,19 +16,16 @@ class TicketSeeder extends Seeder
         Ticket::create([
             'theme' => 'Сломался принтер',
             'email' => 'lexa@mail.loc',
-            'date' => '2024-09-15'
         ]);
 
         Ticket::create([
             'theme' => 'Не включается компьютер',
             'email' => 'babanura@mail.loc',
-            'date' => '2024-09-16'
         ]);
 
         Ticket::create([
             'theme' => 'Забыл пароль',
             'email' => 'borkwork@mail.loc',
-            'date' => '2024-09-17'
         ]);
     }
 }
